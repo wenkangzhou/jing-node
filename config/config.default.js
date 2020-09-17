@@ -30,7 +30,7 @@ module.exports = appInfo => {
   // 配置数据库
   exports.mongoose = {
     client: {
-      url: 'mongodb://jim:jim123456@127.0.0.1:27017/jing',
+      url: 'mongodb://jim:jim123456@0.0.0.0:27017/test',
       options: {},
       // mongoose global plugins, expected a function or an array of function and options
       // plugins: [createdPlugin, [updatedPlugin, pluginOptions]],
